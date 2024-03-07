@@ -1,0 +1,49 @@
+/* Custom.css */
+
+.hero-section {
+  text-align: center;
+  padding: 50px;
+  height: 85vh; /* Make the hero section take the full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("../PHOTOS/Sv2.jpeg");
+  filter: brightness(120%);
+  background-size: cover; /* Cover the entire element with the background image */
+  background-position: center; /* Center the background image */
+}
+
+.hero-section h1 {
+  font-size: 6em; /* Increase the font size for the main heading */
+  margin-bottom: 20px;
+  color: #ad0707; /* Set text color to white */
+  text-shadow: 0px 0px 0px 20px rgba(193, 191, 172, 0.5); /* Add text shadow for better visibility */
+}
+
+.hero-section p {
+  font-size: 1.5em; /* Increase the font size for the paragraph */
+  color: #100d0d; /* Set text color to white */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add text shadow for better visibility */
+}
+
+.book-button {
+  padding: 10px 20px;
+  font-size: 1.5em; /* Increase the font size for the button */
+  background-color: #3498db; /* Set your desired button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add text shadow for better visibility */
+}
+
+.book-button:hover {
+  background-color: #2980b9; /* Set your desired button hover color */
+}
+
+@media screen and (max-width: 600px) {
+  .hero-section h1 {
+    font-size: 3rem;
+  }
+}

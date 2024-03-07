@@ -1,0 +1,77 @@
+/* FeesList.css */
+
+.neumorphic-table-fees {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  overflow-x: hidden;
+}
+
+.neumorphic-table-fees th,
+.neumorphic-table-fees td {
+  padding: 12px 15px;
+  text-align: left;
+  background-color: #f0f0f0;
+}
+
+.neumorphic-table-fees th {
+  background-color: #e0e0e0;
+}
+
+.neumorphic-table-fees tbody tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+.neumorphic-table-fees tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+.formedit {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formedit > div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.removered {
+  background-color: red;
+  color: white;
+}

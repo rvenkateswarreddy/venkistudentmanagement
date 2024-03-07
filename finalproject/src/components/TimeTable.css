@@ -1,0 +1,39 @@
+.table-container0 {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.custom-table0 {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.custom-table0 th,
+.custom-table0 td {
+  padding: 8px 16px;
+  text-align: left;
+  font-size: large;
+  color: white;
+  padding: 15px;
+  border-bottom: 1px solid #100f0f;
+  background-color: #5f5959;
+}
+
+.custom-table0 th {
+  background-color: #f40e0e;
+  font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+  .table-container0 {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .custom-table0 th,
+  .custom-table0 td {
+    padding: 10px;
+    text-align: left;
+    font-size: 15px;
+  }
+}

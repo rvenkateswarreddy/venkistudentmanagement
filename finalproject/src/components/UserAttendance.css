@@ -1,0 +1,31 @@
+/* UserAttendance.css */
+
+.user-attendance-container {
+  margin-top: 20px;
+}
+
+.user-attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-attendance-table th,
+.user-attendance-table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-attendance-table th {
+  background-color: #f2f2f2;
+}
+
+.user-attendance-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+@media screen and (max-width: 600px) {
+  .user-attendance-container {
+    max-width: 500px;
+    overflow-x: auto;
+  }
+}

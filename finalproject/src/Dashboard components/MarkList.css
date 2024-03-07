@@ -1,0 +1,76 @@
+.marklist-container1 {
+  width: 1200px;
+
+  align-items: center;
+}
+
+.marginsearch {
+  margin-left: 30px;
+
+  height: 31px;
+  padding: 20px;
+  width: 500px;
+}
+
+.card-container1 {
+  margin-top: 30px;
+  margin-left: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-height: 500px; /* Adjust the maximum height as needed */
+  overflow-y: auto; /* Add scrollbar for overflow */
+}
+
+.card1 {
+  width: 300px;
+  height: 380px;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 20px;
+  background: #f0f0f0;
+  box-shadow: -7px -6px 16px rgba(255, 255, 255, 0.7),
+    6px 6px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; /* Add transition for smooth animation */
+}
+
+.card1:hover {
+  transform: scale(1.05); /* Increase scale on hover */
+}
+.card1 h3 {
+  color: blue;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.card1 p {
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+.card1 input[type="text"] {
+  width: 80%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.card1 p span {
+  color: rgb(255, 25, 0);
+}
+@media screen and (max-width: 768px) {
+  .card1 {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .card1 {
+    width: 400px;
+  }
+  .card-container1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
